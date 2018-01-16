@@ -1,3 +1,16 @@
+<#
+.DESCRIPTION
+  This Powershell will create a VEGA TREE visualization .JSON file, which you can render in your preferred VEGA method.
+      - filename is the file location of the .json file
+      (ex. C:\storage\myfile.json)
+
+.PARAMETER filename
+   Mandatory with no default.
+   location of .json file to visualize
+   
+.NOTES
+      
+#>
 Param($filename)
 
 function flatten
