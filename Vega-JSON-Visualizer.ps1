@@ -14,6 +14,29 @@
 Param($filename)
 
 <#
+.SYNOPSIS
+Short description
+
+.DESCRIPTION
+Long description
+
+.PARAMETER jsonobject
+Parameter description
+
+.PARAMETER parent
+Parameter description
+
+.PARAMETER jsonarray
+Parameter description
+
+.PARAMETER currentid
+Parameter description
+
+.EXAMPLE
+An example
+
+.NOTES
+General notes
     Flatten takes a json file and then creates a hash which separates out the data in parent/child format.
     Input:
         [String]$JSONOBJECT - the information we read in from the file converted FROM JSON
